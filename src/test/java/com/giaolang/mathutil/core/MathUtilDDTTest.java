@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MathUtilDDTTest {
 
     //hàm trả về mảng 2 chiều; bắt buộc phải static
+    //DDT DATA DRIVEN TESTING
     public static Object[][] initTestData() {
 
         Object[][] testData = {{0, 1},
