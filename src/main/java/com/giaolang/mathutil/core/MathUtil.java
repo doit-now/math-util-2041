@@ -12,8 +12,9 @@ public class MathUtil {
             return 1;  //n = 0 return ngay
         }
         //sure n từ 1..20
-        long result = 10;  //khởi đầu giai thừa bằng 1, nhân dồn
+        long result = 1;  //khởi đầu giai thừa bằng 1, nhân dồn
                            //code cố tình tạo bug: giai thừa đc nhân thêm 10
+        //sửa laị source thành 1 để mlem trở lại, green 4 ever
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
